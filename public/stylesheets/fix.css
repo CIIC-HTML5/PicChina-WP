@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+body {
+    height: 100%;
+    font-size: 14px;
+    font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: rgba(0,0,0,0.8);
+    text-align: center;
+    overflow-y: hidden;
+}
+
+a {
+    color: #369;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul, li, dl, dt, dd {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: top;
+}

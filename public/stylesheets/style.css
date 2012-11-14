@@ -1,0 +1,108 @@
+.block {
+    display: block;
+}
+
+.p50 {
+    padding: 50px;
+}
+
+.bkr, .bkg, .bkb { width: 130px; height: 130px; }
+.bkr { background: #D33; }
+.bkg { background: #590; }
+.bkb { background: #3AD; }
+
+.fmColumn {
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    height: 100%;
+}
+
+.cTitle {
+    text-align: left;
+    font-size: 30px;
+    line-height: 1.5em;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.cHead, .cAll {
+    float: left;
+    display: inline-block;
+}
+
+.cHead {
+    width: 340px;
+    height: 270px;
+}
+
+.chB, .chS {
+    float: left;
+    display: inline-block;
+}
+
+.chB {
+    width: 270px;
+    height: 270px;
+}
+
+.chS {
+    width: 60px;
+    height: 270px;
+    padding-left: 10px;
+}
+
+.chS li {
+    padding-bottom: 10px;
+}
+
+.chS li:last-child {
+    padding-bottom: 0;
+}
+
+.cAll {
+    width: 880px;
+    height: 270px;
+    position: relative;
+}
+
+.cAll figure {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+}
+
+.cAll figure:nth-child(1) { width: 270px; top: 0; left: 50px; }
+.cAll figure:nth-child(2) { top: 140px; left: 50px; }
+.cAll figure:nth-child(3) { top: 140px; left: 190px; }
+.cAll figure:nth-child(4) { top: 0; left: 330px; }
+.cAll figure:nth-child(5) { top: 140px; left: 330px; }
+.cAll figure:nth-child(6) { top: 0; left: 470px; }
+.cAll figure:nth-child(7) { top: 140px; left: 470px; }
+.cAll figure:nth-child(8) { top: 0; left: 610px; }
+.cAll figure:nth-child(9) { top: 140px; left: 610px; }
+.cAll figure:nth-child(10) { top: 0; left: 750px; }
+.cAll figure:nth-child(11) { top: 140px; left: 750px; }
+
+.cAll figure figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.cAll figure figcaption div {
+    padding: 5px 10px;
+    background: -webkit-gradient(
+        linear,
+        0% 0%,
+        70% 50%,
+        from(rgba(255,255,255,1)),
+        to(rgba(255,255,255,0.1))
+    );
+    color: #333;
+    font-weight: bold;
+}
